@@ -7,13 +7,3 @@ botones.forEach((boton) => {
       caja.style.backgroundColor = colorBoton;
     });
   });
-
-  //otra forma de funcionanmiento
-
-/* for (const boton of botones) {
-    boton.addEventListener("click", () => {
-      const color = boton.style.backgroundColor;
-      caja.style.backgroundColor = color;
-    });
-  }
- */
